@@ -39,6 +39,7 @@ def unilist():
             uni_names.append(numbered_names)
             for serial_names in uni_names:
                 print(serial_names)
+                
     return json.dumps(uni_names)
 
         # with open(path, "w") as file: #open file outside the loop prevents overwrite  
