@@ -37,8 +37,8 @@ def unilist():
             names = uni["name"] #the variable "name" is used in each uni dictionary
             numbered_names = f"{uni_num}.{names}"
             uni_names.append(numbered_names)
-    for serial_names in uni_names:
-        print(serial_names)
+            for serial_names in uni_names:
+                print(serial_names)
     return json.dumps(uni_names)
 
         # with open(path, "w") as file: #open file outside the loop prevents overwrite  
